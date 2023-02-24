@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 ul {
@@ -31,7 +32,8 @@ img {
   --title-color: hsl(var(--hue) 41% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%);
+  --body-color: rgb(20 98 135);
+  --body-color-second: rgb(140 185 206);
 
   /* fonts */
   --title-font-size: 1.875rem;
@@ -50,7 +52,7 @@ body {
   font: 400 1rem var(--body-font);
   color: var(--text-color);
   background: var(--body-color);
-  -webkit-font-smoothing: antialiased;
+  
 }
 
 .title {
@@ -307,7 +309,7 @@ nav.show div.icon-close {
 
 /*====  ABOUT ============================ */
 #about {
-  background: white;
+  background: var(--body-color-second);
 }
 
 #about .container {
