@@ -1,9 +1,172 @@
-/* RESET */
+/* ================  RESET ===================*/
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* ================  VARIABLES ===================*/
+:root {
+    --header-height: 4.5rem;
+
+    /* colors */
+    --hue: 159;
+    /* HSL color mode */
+    --base-color: #146185;
+    --base-color-second: hsl(var(--hue) 65% 88%);
+    --base-color-alt: hsl(var(--hue) 57% 53%);
+    --title-color: hsl(var(--hue) 41% 10%);
+    --text-color: hsl(0, 0%, 100%);
+    --text-color-black: #000000;
+    --body-color: rgb(20 98 135);
+    --body-color-second: rgb(140 185 206);
+
+    /* divider */
+    --divider:#69b99d;
+  
+    /* fonts */
+    --title-font-size: 1.875rem;
+    --subtitle-font-size: 1rem;
+  
+    --title-font: 'Poppins', sans-serif;
+    --body-font: 'DM Sans', sans-serif;
+}
+
+/* ================  BASE ===================*/
+body {
+    font: 400 1rem 'DM Sans', sans-serif;
+    color: var(--text-color);
+    background: var(--base-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font: 700 1.875rem 'Poppins', sans-serif;
+}
+
+h2 {
+    font: 700 1.875rem 'Poppins', sans-serif;
+    -webkit-font-smoothing: auto;
+}
+
+.text {
+    text-align: center;
+    color: var(--text-color); 
+}
+
+.divider-1 {
+    height: 1px;
+    background: linear-gradient(
+      270deg,
+      hsla(var(--hue), 36%, 57%, 1) 0%,
+      hsla(var(--hue), 65%, 88%, 0.34) 100%
+    );
+  }
+  
+  .divider-2 {
+    height: 1px;
+    background: linear-gradient(
+      270deg,
+      hsla(var(--hue), 65%, 88%, 0.34),
+      hsla(var(--hue), 36%, 57%, 1)
+    );
+  }
+
+.button {
+    background-color: var(--base-color-second);
+    color: var(--text-color);
+    height: 3.5rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    font: 500 1rem 'DM Sans', sans-serif;
+    margin: 0.25rem;
+}
+
+/* ================  LAYOUT ===================*/
+#header {
+    border-bottom: 1px solid #69b99d;
+    margin-bottom: 2rem;
+    display: flex;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: var(--base-color);
+    width: 100%;
+}
+
+nav {
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font: 700 1.875rem 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+.logo span {
+    color: var(--text-color-black);
+}
+
+.container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 2rem;
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+/* ================  HOME ===================*/
+#home .container {
     margin: 0;
 }
 
-/* UNIDADE DE MEDIADA
-    - 72PX / 16PX = 4.5rem;
-    - No caso a cima é para deixar as unidade responsivas, então lembrar de colocar sempre de forma 
-*/
+#home .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#home .image img {
+    border: 4px solid #300c93;
+    border-radius: 18.75rem;
+    position: relative;
+    margin-top: 4rem;
+}
+
+#home .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+#home .text h1 {
+    margin-bottom: 1rem;
+}
+#home .text h2 {
+    margin-bottom: 1rem;
+}
+
+#home .text p {
+   margin-bottom: 2rem;
+}
