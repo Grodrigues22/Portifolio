@@ -224,6 +224,10 @@ nav.show div.icon-x {
 
 
 /* ================  HOME ===================*/
+#home {
+    overflow: hidden;
+}
+
 #home .container {
     margin: 0;
 }

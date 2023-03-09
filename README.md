@@ -24,3 +24,25 @@ DATA DE ENTREGA: 11/03/2023
 09/03 - SABADO
         - Melhorar o design ao máximo (deixar mais próximo do que no figma e aplicar novas ideias);
         - Entrega do site;
+
+## Melhoras em cada parte 
+        * HOME
+                - Os links com os icones realizando os devidos direcionamentos:
+                        - Colocar icones no lugar dos "buttons";
+                        - Realizar o direcionamento correto;
+                        - Prersonalizar icones/buttons.
+                - Criar contorno da foto corretamente:
+                        - Criar contorno neon.
+        * SOBRE MIM
+                - Reazalizar os devidos espaçamentos.
+                - Criar contorno da foto corretamente:
+                        - Criar contorno neon.
+                - Os links com os icones realizando os devidos direcionamentos:
+                        - Colocar icones no lugar dos "buttons";
+                        - Realizar o direcionamento correto;
+                        - Prersonalizar icones/buttons.
+        * EXPERIÊNCIA
+                - Os links com os icones realizando os devidos direcionamentos:
+                        - Colocar icones no lugar dos "buttons";
+                        - Realizar o direcionamento correto;
+                        - Prersonalizar icones/buttons.
