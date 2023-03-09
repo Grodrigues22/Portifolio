@@ -257,10 +257,28 @@ nav.show div.icon-x {
 }
 
 /* ================  SOBRE MIM ===================*/
+#about .container {
+    margin: 0;
+}
+
+#about .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
 
 #about .image img {
     border: 4px solid #300c93;
     border-radius: 18.75rem;
     position: relative;
     margin-top: 4rem;
+}
+
+#about .text  p {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+#about .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }

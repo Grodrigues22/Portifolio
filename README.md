@@ -5,7 +5,7 @@ Auterando aos poucos
 
 DATA DE ENTREGA: 11/03/2023
 
-06/03 - SEGUNDA-FEIRA
+06/03 - SEGUNDA-FEIRA (Concluido)
         - Terminar menu;
         - Terminar "Sobre Mim";
         - 
