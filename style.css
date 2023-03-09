@@ -56,6 +56,7 @@ body {
 .title {
     font: 700 1.875rem 'Poppins', sans-serif;
     -webkit-font-smoothing: auto;
+    margin-bottom: 2.25rem;
 }
 
 .text {
@@ -151,6 +152,7 @@ nav ul li {
 nav ul li a {
     transition: color 0.2s;
     position: relative;
+    color: var(--text-color);
 }
 
 nav ul li a:hover {
@@ -205,7 +207,7 @@ nav ul.grid {
 
 /* ================  toggle menu ===================*/
 .toggle {
-    color: var(--base-color-second);
+    color: var(--text-color);
     font-size: 1.5rem;
 }
 
@@ -249,9 +251,6 @@ nav.show div.icon-x {
     margin-right: 1.5rem;
 }
 
-#home .text h1 {
-    margin-bottom: 1rem;
-}
 #home .text h2 {
     margin-bottom: 1rem;
 }
@@ -280,9 +279,45 @@ nav.show div.icon-x {
 #about .text  p {
     text-align: justify;
     margin-bottom: 2rem;
+    
 }
 
-#about .text {
+/* ================  EXPERIENCE ===================*/
+#experience .container {
+    margin: 0;
+}
+
+#experience .container {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
+
+#experience .text  p {
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+#experience h3 {
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+#experience h4 {
+    text-align: left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* ================  PROJECT ===================*/
+#project .container {
+    margin: 0;
+}
+
+#project .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
