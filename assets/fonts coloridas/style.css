@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kf3fml');
+  src:  url('fonts/icomoon.eot?kf3fml#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kf3fml') format('truetype'),
+    url('fonts/icomoon.woff?kf3fml') format('woff'),
+    url('fonts/icomoon.svg?kf3fml#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-git:before {
+  content: "\e900";
+  color: #f05032;
+}
+.icon-javascript:before {
+  content: "\e901";
+  color: #f7df1e;
+}
+.icon-mysql:before {
+  content: "\e902";
+  color: #4479a1;
+}
+.icon-css3:before {
+  content: "\e903";
+  color: #1572b6;
+}
+.icon-html5:before {
+  content: "\e904";
+  color: #e34f26;
+}

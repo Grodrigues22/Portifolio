@@ -259,6 +259,63 @@ nav.show div.icon-x {
    margin-bottom: 2rem;
 }
 
+/* ================  NOME LOADING ===================*/
+
+
+/* ================  HOME BUTTON ===================*/
+.social-links,.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-btn {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: white;
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+  }
+  
+  .social-btn svg {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 5px;
+  }
+  
+  .social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+  }
+  
+  .social-btn:hover span {
+    padding: 2px;
+    width: 80px;
+  }
+  
+  #linkedin svg {
+    fill: #0e76a8;
+  }
+  
+  #github {
+    fill: #333;
+  }
+  
+
+
 /* ================  SOBRE MIM ===================*/
 #about .container {
     margin: 0;
@@ -311,6 +368,13 @@ nav.show div.icon-x {
     margin-top: 1rem;
 }
 
+/* ================  TECNOLOGIAS ===================*/
+
+
+
+
+
+
 /* ================  PROJECT ===================*/
 #project .container {
     margin: 0;
@@ -321,3 +385,42 @@ nav.show div.icon-x {
     margin-right: 1.5rem;
 }
 
+.loader {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .loader-text {
+    font: 400 1.5rem 'DM Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    align-self: center;
+  }
+  
+  .loader-bar {
+    width: 30%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    animation: loader-bar-animation 2s ease-in-out infinite;
+  }
+  
+  @keyframes loader-bar-animation {
+    0% {
+      /* transform: translateX(-100%) rotate(270deg); */
+      transform: translateX(-100%);
+    }
+  
+    50% {
+      /* transform: translateX(100%) rotate(-90deg); */
+      transform: translateX(100%);
+    }
+  
+    100% {
+      /* transform: translateX(-100%) rotate(270deg); */
+      transform: translateX(-100%);
+    }
+  }
